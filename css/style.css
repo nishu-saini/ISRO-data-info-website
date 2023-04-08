@@ -46,5 +46,15 @@ tbody tr:hover {
   table {
     font-size: 0.8rem;
   }
+
+  #nav {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  select {
+    height: 40px;
+    width: 200px;
+  }
 }
   
