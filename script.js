@@ -9,7 +9,7 @@ const spacecrafts = fetchAPI(url_spacecrafts),
       centres = fetchAPI(url_centres);
 
 // add data to page..
-document.body.onload = function() {
+window.onload = function() {
     // select required HTML elements..
     let dropdown1 = document.querySelector("#dropdown1"),
         dropdown2 = document.querySelector("#dropdown2"),
